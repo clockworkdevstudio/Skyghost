@@ -3,7 +3,7 @@
 
 This game was written over the course of about a week to test and demonstrate my BASIC compiler Idlewild-Lang. It uses vector graphics and has a fairly sophisticated physics engine so it's a bit heavy on the maths. Apologies for the admittedly very untidy source code. The game is *almost* source-compatible with Blitz BASIC/Blitzplus (it uses at least one 3D graphics function I introduced myself).
 
-## INSTALL
+## INSTALL (LINUX)
 
 To install dependencies on a (RECENT!) version of Ubuntu:
 
@@ -12,6 +12,10 @@ To install dependencies on a (RECENT!) version of Ubuntu:
 Now run the game with:
 
 `./skyghost`
+
+## INSTALL (WINDOWS)
+
+To install on Windows, just unzip the archive in any folder. To run, double-click `skyghost.exe`.
 
 ## PLAY
 
