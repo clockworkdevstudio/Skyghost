@@ -582,7 +582,7 @@ Function EntityCollisions()
                 If e1\class = ENTITY_CLASS_CRAFT Or e2\class = ENTITY_CLASS_CRAFT
                 
                     CRAFT_COLLISION = True
-                    If CRAFT\invincible = False And CRAFT\Shields >= 0 Then CRAFT\Shields = CRAFT\Shields; - 0.125
+                    If CRAFT\invincible = False And CRAFT\Shields >= 0 Then CRAFT\Shields = CRAFT\Shields - 0.125
                 End If
             
                 PlaySound(SND_CRASH)
